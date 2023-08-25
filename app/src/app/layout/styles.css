@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(150deg, #000017, #17234a) !important;
+  overflow-x: hidden !important;
+  height: 100% !important;
+  background-attachment: fixed !important;
+}
+
+/*home page styles*/
+.masthead {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(135deg, rgb(0, 0, 23) 0%, rgb(23, 35, 74) 48%, rgb(61, 68, 137) 89%) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+/*end home page styles*/
